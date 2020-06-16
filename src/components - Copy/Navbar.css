@@ -1,0 +1,25 @@
+.dropdown-item:hover {
+    background: orange !important;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+.btn {
+    border-color: orange !important;
+    color: orange !important;
+}
+
+.btn:hover {
+    background: orange !important;
+    color: white !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border-color: orange !important;
+}
+
+body { padding-top: 0px;}
+
