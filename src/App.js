@@ -1,9 +1,10 @@
 import React from 'react';
-import "./components/layouts/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import Navbar from "./components/layouts/Navbar";
+import "./components/layouts/Navbar.css";
 import Footer from "./components/layouts/Footer";
+import "./components/layouts/Footer.css";
 // React Router Import
 import { Switch, Route} from 'react-router-dom';
 //Import Pages
