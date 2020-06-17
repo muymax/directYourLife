@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faAddressCard, faAddressBook } from '@fortawesome/free-solid-svg-icons'
-import logo from "../../dyi.png";
+import logo from "../assets/dyi.png";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
