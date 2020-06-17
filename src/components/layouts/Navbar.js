@@ -1,14 +1,15 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faAddressCard, faAddressBook } from '@fortawesome/free-solid-svg-icons'
-import logo from "../dyi.png";
+import logo from "../../dyi.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100">
-  <a className="navbar-brand" href="#">
+  <Link className="navbar-brand" href="#">
       <img src={logo} alt="logo..." style={{width: "150px"}} />
-      </a>
+      </Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -16,24 +17,24 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mx-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#"><FontAwesomeIcon icon={faHome}/>&nbsp;
-            Home <span className="sr-only">(current)</span></a>
+        <Link className="nav-link" to="/"><FontAwesomeIcon icon={faHome}/>&nbsp;
+            Home <span className="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#"><FontAwesomeIcon icon={faAddressCard}/>&nbsp; About</a>
+        <Link className="nav-link" to="/about"><FontAwesomeIcon icon={faAddressCard}/>&nbsp; About</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#"><FontAwesomeIcon icon={faAddressBook}/>&nbsp; Contact</a>
+        <Link className="nav-link" to="/contact"><FontAwesomeIcon icon={faAddressBook}/>&nbsp; Contact</Link>
       </li>
       <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
-        </a>
+        </Link>
         <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item text-white" href="#">Action</a>
-          <a className="dropdown-item text-white" href="#">Another action</a>
+          <Link className="dropdown-item text-white" href="#">Blog</Link>
+          <Link className="dropdown-item text-white" href="#">News Updates</Link>
           <div className="dropdown-divider"></div>
-          <a className="dropdown-item text-white" href="#">Something else here</a>
+          <Link className="dropdown-item text-white" href="#">Videos</Link>
         </div>
       </li>
     </ul>
