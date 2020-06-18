@@ -82,7 +82,7 @@ class About extends Component {
             <Col>
               <h2>Advisor</h2>
               <p>
-                Lorem ipsum dolor sit amet, magna lacinia donec enim id.
+                Hello world Lorem ipsum dolor sit amet, magna lacinia donec enim id.
                 Sagittis eget porttitor mattis libero orci ut. Nullam tristique
                 quisque urna eget, erat justo, libero libero, congue nisl donec
                 nam nulla quis id, eget cras tortor urna vitae at eu. Integer
