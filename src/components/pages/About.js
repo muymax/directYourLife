@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import { Container, Col, Image, Row } from "react-bootstrap";
-import olu from "../assets/olu.png";
-import advisor1 from "../assets/advisor1.png";
-import advisor2 from "../assets/advisor2.png";
+import React, { Component } from 'react';
+import { Container, Col, Image, Row } from 'react-bootstrap';
+import olu from '../assets/olu.png';
+import advisor1 from '../assets/advisor1.png';
+import advisor2 from '../assets/advisor2.png';
 
 class About extends Component {
   render() {
@@ -74,7 +74,7 @@ class About extends Component {
               <img
                 src={olu}
                 alt="../assets/olu.png"
-                style={{ width: "400px" }}
+                style={{ width: '400px' }}
               />
             </Col>
           </Row>
@@ -82,11 +82,11 @@ class About extends Component {
             <Col>
               <h2>Advisor</h2>
               <p>
-                Hello world Lorem ipsum dolor sit amet, magna lacinia donec enim id.
-                Sagittis eget porttitor mattis libero orci ut. Nullam tristique
-                quisque urna eget, erat justo, libero libero, congue nisl donec
-                nam nulla quis id, eget cras tortor urna vitae at eu. Integer
-                integer vitae pellentesque vehicula euismod, et amet ac
+                Hello world Lorem ipsum dolor sit amet, magna lacinia donec enim
+                id. Sagittis eget porttitor mattis libero orci ut. Nullam
+                tristique quisque urna eget, erat justo, libero libero, congue
+                nisl donec nam nulla quis id, eget cras tortor urna vitae at eu.
+                Integer integer vitae pellentesque vehicula euismod, et amet ac
                 malesuada vitae. Cras ac integer, nullam urna consectetuer nibh
                 fusce ullamcorper in. In placerat suscipit, massa laborum lorem
                 amet vestibulum, sed culpa sit parturient facilisis nonummy
@@ -103,7 +103,7 @@ class About extends Component {
               <img
                 src={advisor1}
                 alt="../assets/advisor1.png"
-                style={{ width: "400px" }}
+                style={{ width: '400px' }}
               />
             </Col>
           </Row>
@@ -132,7 +132,7 @@ class About extends Component {
               <img
                 src={advisor2}
                 alt="../assets/advisor2.png"
-                style={{ width: "300px" }}
+                style={{ width: '300px' }}
               />
             </Col>
           </Row>

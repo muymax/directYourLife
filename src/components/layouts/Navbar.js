@@ -1,19 +1,19 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHome,
   faAddressCard,
   faAddressBook,
-} from "@fortawesome/free-solid-svg-icons";
-import logo from "../assets/dyi.png";
-import { Link } from "react-router-dom";
-import { Container } from "react-bootstrap";
+} from '@fortawesome/free-solid-svg-icons';
+import logo from '../assets/dyi.png';
+import { Link } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100">
+    <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-dark w-100">
       <Link className="navbar-brand" href="#">
-        <img src={logo} alt="logo..." style={{ width: "150px" }} />
+        <img src={logo} alt="logo..." style={{ width: '150px' }} />
       </Link>
       <button
         className="navbar-toggler"
@@ -74,18 +74,21 @@ const Navbar = () => {
         </ul>
         <form className="form-inline my-2 my-lg-0">
           {/* <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/> */}
+          <Link className="nav-link" to="/login">
+            <button
+              className="btn btn-outline-success my-2 my-sm-0"
+              type="submit">
+              Login
+            </button>
+          </Link>
+          <Link className="nav-link" to="/signup">
           <button
             className="btn btn-outline-success my-2 my-sm-0"
             type="submit">
-            Login
-          </button>
-          &nbsp;
-          <button
-            className="btn btn-outline-success my-2 my-sm-0"
-            type="submit">
-            Register
-          </button>
-        </form>
+            Sign Up
+              </button> 
+            </Link>
+          </form>
       </div>
     </nav>
   );
