@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/dyi.png';
 import { Link } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
+//import { Container } from 'react-bootstrap';
 
 const Navbar = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Col, Image, Row } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import olu from '../assets/olu.png';
 import advisor1 from '../assets/advisor1.png';
 import advisor2 from '../assets/advisor2.png';
