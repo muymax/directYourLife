@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Jumbotron from '../../components/layouts/Jumbotron.js';
+import Accordd from "../layouts/Faq.js";
 
 class Home extends Component {
   render() {
@@ -137,6 +138,8 @@ class Home extends Component {
           orci vitae sem, aliquam ligula. Massa vestibulum, sed iaculis
           tincidunt nec urna sit ac.
         </p>
+        <h2>Frequently Asked Questions (FAQs)</h2>
+        <Accordd />
       </div>
     );
   }
