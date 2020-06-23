@@ -32,7 +32,6 @@ class Home extends Component {
           ridiculus expedita a, congue tempus augue in quam rhoncus, in et neque
           orci vitae sem, aliquam ligula. Massa vestibulum, sed iaculis
           tincidunt nec urna sit ac.
-          <h2>Home Page</h2>
         </p>
         <p>
           Lorem ipsum dolor sit amet, nunc sollicitudin tempor ullamcorper, a
@@ -59,7 +58,6 @@ class Home extends Component {
           ridiculus expedita a, congue tempus augue in quam rhoncus, in et neque
           orci vitae sem, aliquam ligula. Massa vestibulum, sed iaculis
           tincidunt nec urna sit ac.
-          <h2>Home Page</h2>
         </p>
         <p>
           Lorem ipsum dolor sit amet, nunc sollicitudin tempor ullamcorper, a
@@ -86,7 +84,6 @@ class Home extends Component {
           ridiculus expedita a, congue tempus augue in quam rhoncus, in et neque
           orci vitae sem, aliquam ligula. Massa vestibulum, sed iaculis
           tincidunt nec urna sit ac.
-          <h2>Home Page</h2>
         </p>
         <p>
           Lorem ipsum dolor sit amet, nunc sollicitudin tempor ullamcorper, a
@@ -113,7 +110,6 @@ class Home extends Component {
           ridiculus expedita a, congue tempus augue in quam rhoncus, in et neque
           orci vitae sem, aliquam ligula. Massa vestibulum, sed iaculis
           tincidunt nec urna sit ac.
-          <h2>Home Page</h2>
         </p>
         <p>
           Lorem ipsum dolor sit amet, nunc sollicitudin tempor ullamcorper, a
@@ -140,7 +136,6 @@ class Home extends Component {
           ridiculus expedita a, congue tempus augue in quam rhoncus, in et neque
           orci vitae sem, aliquam ligula. Massa vestibulum, sed iaculis
           tincidunt nec urna sit ac.
-          <h2>Home Page</h2>
         </p>
       </div>
     );

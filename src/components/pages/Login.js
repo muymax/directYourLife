@@ -1,30 +1,37 @@
 import React, { Component } from 'react';
-import { Form, Button } from 'react-bootstrap';
 
 class Login extends Component {
+  state = {
+    email: '',
+    password: ''
+
+  };
+  handleChange = (e) => {
+    this.setState({
+        [e.target.id]: e.target.value
+    })
+  }
+  handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(this.state);
+  }
   render() {
     return (
-      <div>
-        <h2> Log in </h2>
-        <Form>
-          <Form.Group controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Email address" />
-            <Form.Text className="text-muted">
-              Your information is kept confidential
-            </Form.Text>
-          </Form.Group>
-          <Form.Group controlId="formBasicPassword">
-            <Form.Label>Password</Form.Label>
-            <Form.Control type="password" placeholder="Password" />
-          </Form.Group>
-          <Form.Group controlId="formBasicCheckbox">
-            <Form.Check type="checkbox" label="Keep me logged in" />
-          </Form.Group>
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
-        </Form>
+      <div className="container">
+        <form onSubmit={this.handleSubmit} className="white">
+          <h5 className="grey-text text-darken-3">Log In</h5>
+          <div className="input-field">
+            <label htmlFor="email">Email</label>
+            <input type="email" id="email" onChange={this.handleChange}/>
+          </div>
+          <div className="input-field">
+            <label htmlFor="password">Password</label>
+            <input type="password" id="password" onChange={this.handleChange}/>
+          </div>
+          <div className="input-field">
+            <button className="btn pink lightne-1 z-depth-0">Login</button>
+          </div>
+        </form>
       </div>
     );
   }
