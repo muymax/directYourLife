@@ -76,7 +76,7 @@ const Navbar = () => {
               className="dropdown-menu bg-dark"
               aria-labelledby="navbarDropdown">
               <Link className="dropdown-item text-white" href="#">
-               Legal News Updates
+               Legal Updates
               </Link>
               <Link className="dropdown-item text-white" href="#">
                Blog
