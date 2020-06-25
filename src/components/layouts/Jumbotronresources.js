@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Jumbotron as Jumbo, Container } from "react-bootstrap";
 import styled from "styled-components";
@@ -5,17 +6,17 @@ import styled from "styled-components";
 const Styles = styled.div`
 	font-size: 10px;
 	text-align: center;
-	color: black;
-	`;
+	color: red;
+`;
 
 const Jumbotron = () => (
 	<Styles>
 		<Jumbo fluid className='Jumbo bg-dark text-white'>
 			<Container>
 				<h1>
-					Welcome to Direct Your Life 
+					Resources
 				</h1>
-				<h3>An online community to help guide you through the Canadian Legal System</h3>
+				<h3>Resources available you you through Direct Your Life registration</h3>
 			</Container>
 		</Jumbo>
 	</Styles>

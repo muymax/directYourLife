@@ -1,0 +1,33 @@
+.about {
+  background: #78a0e6;
+  padding-top: 50px;
+  position: relative;
+  z-index: -10000;
+}
+.contact {
+  background: #769fe6;
+  padding-top: 50px;
+  position: relative;
+  z-index: -10000;
+}
+.home {
+  background: #769fe6;
+  padding-top: 50px;
+  position: relative;
+  z-index: -10000;
+}
+.programs {
+  background: #769fe6;
+  padding-top: 50px;
+  position: relative;
+  z-index: -10000;
+}
+.resources {
+  background: #769fe6;
+  padding-top: 50px;
+  position: relative;
+  z-index: -10000;
+}
+
+
+

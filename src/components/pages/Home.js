@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import Jumbotron from '../../components/layouts/Jumbotron.js';
 import Accordd from "../layouts/Faq.js";
+import { Container } from 'react-bootstrap';
+import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 class Home extends Component {
   render() {
     return (
       <div>
+        <Container fluid className="home" >
         <Jumbotron />
         <h2>Home page</h2>
         <p>
@@ -138,8 +141,18 @@ class Home extends Component {
           orci vitae sem, aliquam ligula. Massa vestibulum, sed iaculis
           tincidunt nec urna sit ac.
         </p>
+        
+        
+        </Container>
         <h2>Frequently Asked Questions (FAQs)</h2>
         <Accordd />
+        <br />
+				<br />
+				<br />
+				<h2>Subscribe to our Newsletter</h2>
+				<MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
+				<br />
+				<br />
       </div>
     );
   }

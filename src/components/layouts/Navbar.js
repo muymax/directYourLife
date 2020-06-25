@@ -4,6 +4,9 @@ import {
   faHome,
   faAddressCard,
   faAddressBook,
+  faHandsHelping,
+  faQuestionCircle,
+  faNewspaper,
 } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/dyi.png';
 import { Link } from 'react-router-dom';
@@ -12,7 +15,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-dark w-100">
-      <Link className="navbar-brand" href="#">
+      <Link className="navbar-link" to="/">
         <img src={logo} alt="logo..." style={{ width: '150px' }} />
       </Link>
       <button
@@ -39,6 +42,18 @@ const Navbar = () => {
               &nbsp; About
             </Link>
           </li>
+          <li className='nav-item'>
+						<Link className='nav-link' to='/Programs'>
+							<FontAwesomeIcon icon={faHandsHelping} />
+							&nbsp; Programs
+						</Link>
+					</li>
+					<li className='nav-item'>
+						<Link className='nav-link' to='/Resources'>
+							<FontAwesomeIcon icon={faQuestionCircle} />
+							&nbsp; Resources
+						</Link>
+					</li>
           <li className="nav-item">
             <Link className="nav-link" to="/contact">
               <FontAwesomeIcon icon={faAddressBook} />
@@ -54,16 +69,17 @@ const Navbar = () => {
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false">
-              Dropdown
+                <FontAwesomeIcon icon={faNewspaper} />
+                &nbsp; News
             </Link>
             <div
               className="dropdown-menu bg-dark"
               aria-labelledby="navbarDropdown">
               <Link className="dropdown-item text-white" href="#">
-                Blog
+               Legal News Updates
               </Link>
               <Link className="dropdown-item text-white" href="#">
-                News Updates
+               Blog
               </Link>
               <div className="dropdown-divider"></div>
               <Link className="dropdown-item text-white" href="#">

@@ -17,52 +17,40 @@ function Footer() {
           <div className="row">
             {/* Column 1*/}
             <div className="col-md-3 col-sm-6">
-              <h4>Footer</h4>
+              <h4>DYL</h4>
               <ul className="list-unstyled">
-                <li>hello world</li>
-                <li>hello world</li>
-                <li>hello world</li>
-                <li>hello world</li>
+              
+                <li>Direct Your Life</li>
+                <li>Street address</li>
+                <li>City, Prov</li>
+                <li>Postal Code</li>
               </ul>
             </div>
             {/* Column 2*/}
-            <div className="col-md-3 col-sm-6">
-              <h4>Footer</h4>
+            <div className="col-md-2 col-sm-6">
+              <h4>Links</h4>
               <ul className="list-unstyled">
-                <li>hello world</li>
-                <li>hello world</li>
-                <li>hello world</li>
-                <li>hello world</li>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>FAQ's</li>
+                <li></li>
               </ul>
             </div>
             {/* Column 3*/}
-            <div className="col-md-3 col-sm-6">
-              <h4>Footer</h4>
+            <div className="col-md-2 col-sm-6">
+              <h4></h4>
               <ul className="list-unstyled">
-                <li>hello world</li>
-                <li>hello world</li>
-                <li>hello world</li>
+                <li>Member terms</li>
+                <li>Privacy</li>
+                <li>Crisis support</li>
                 <li>hello world</li>
               </ul>
             </div>
             {/* Column 4*/}
-            <div className="col-md-3 col-sm-6">
-              <h4>Footer</h4>
+            <div className="col-md-5 col-sm-6">
+              <h4>Social Media</h4>
               <ul className="list-unstyled">
-                <li>hello world</li>
-                <li>hello world</li>
-                <li>hello world</li>
-                <li>hello world</li>
-              </ul>
-            </div>
-          </div>
-          {/*Footer bottom*/}
-          <div className="footer-bottom">
-            <p className="text-xs-center">
-              &copy;{new Date().getFullYear()} Direct Your Life - All Rights
-              Reserved
-            </p>
-            <div className="social-container">
+              <div className="social-container">
               <a
                 href="https://www.youtube.com/watch?v=eIPu-UPCrd8"
                 className="youtube social">
@@ -81,6 +69,20 @@ function Footer() {
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </div>
+                {/* <li>hello world</li>
+                <li>hello world</li>
+                <li>hello world</li>
+                <li>hello world</li> */}
+              </ul>
+            </div>
+          </div>
+          {/*Footer bottom*/}
+          <div className="footer-bottom">
+            <p className="text-xs-center">
+              &copy;{new Date().getFullYear()} Direct Your Life - All Rights
+              Reserved
+            </p>
+            
           </div>
         </div>
       </div>

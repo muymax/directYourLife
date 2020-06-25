@@ -3,12 +3,14 @@ import { Container, Col, Row } from 'react-bootstrap';
 import olu from '../assets/olu.png';
 import advisor1 from '../assets/advisor1.png';
 import advisor2 from '../assets/advisor2.png';
+import Jumbotronabout from '../../components/layouts/Jumbotronabout.js';
 
 class About extends Component {
   render() {
     return (
       <div>
         <Container fluid className="about">
+        <Jumbotronabout />
           <h2>About Us</h2>
           <Row>
             <Col>
