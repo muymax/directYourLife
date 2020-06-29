@@ -5,7 +5,7 @@ import {
 	faAddressCard,
 	faAddressBook,
 } from "@fortawesome/free-solid-svg-icons";
-import logo from "../../dyi.png";
+import logo from "../assets/dyi.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -37,7 +37,19 @@ const Navbar = () => {
 					<li className='nav-item'>
 						<Link className='nav-link' to='/about'>
 							<FontAwesomeIcon icon={faAddressCard} />
-							&nbsp; About
+							&nbsp; About Us
+						</Link>
+					</li>
+					<li className='nav-item'>
+						<Link className='nav-link' to='/Programs'>
+							<FontAwesomeIcon icon={faAddressBook} />
+							&nbsp; Programs
+						</Link>
+					</li>
+					<li className='nav-item'>
+						<Link className='nav-link' to='/Resources'>
+							<FontAwesomeIcon icon={faAddressBook} />
+							&nbsp; Resources
 						</Link>
 					</li>
 					<li className='nav-item'>
@@ -56,7 +68,7 @@ const Navbar = () => {
 							aria-haspopup='true'
 							aria-expanded='false'
 						>
-							Dropdown
+							News
 						</Link>
 						<div
 							className='dropdown-menu bg-dark'
@@ -65,12 +77,9 @@ const Navbar = () => {
 							<Link className='dropdown-item text-white' href='#'>
 								Blog
 							</Link>
-							<Link className='dropdown-item text-white' href='#'>
-								News Updates
-							</Link>
 							<div className='dropdown-divider'></div>
 							<Link className='dropdown-item text-white' href='#'>
-								Videos
+								News Updates
 							</Link>
 						</div>
 					</li>
