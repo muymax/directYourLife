@@ -21,6 +21,14 @@
   border-color: orange;
 }
 
-body {
+/* body {
   padding-top: 0px;
+  width: 100%;
+  
+} */
+body {
+  background-image: url(../assets/img10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }

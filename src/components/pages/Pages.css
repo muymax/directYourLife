@@ -1,9 +1,22 @@
 .about {
   background: #78a0e6;
-  padding-top: 50px;
-  position: relative;
-  z-index: -10000;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  /* position: relative;
+  z-index: -10000; */
+ 
 }
+
+/* .aboutdiv{
+ width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  border: 2px solid green;
+ 
+} */
 .contact {
   background: #769fe6;
   padding-top: 50px;
@@ -12,21 +25,30 @@
 }
 .home {
   background: #769fe6;
-  padding-top: 50px;
   position: relative;
   z-index: -10000;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  
 }
 .programs {
   background: #769fe6;
   padding-top: 50px;
   position: relative;
   z-index: -10000;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
 }
 .resources {
   background: #769fe6;
   padding-top: 50px;
   position: relative;
   z-index: -10000;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
 }
 
 

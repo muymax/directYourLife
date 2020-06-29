@@ -3,18 +3,20 @@ import { Container, Col, Row } from 'react-bootstrap';
 import olu from '../assets/olu.png';
 import advisor1 from '../assets/advisor1.png';
 import advisor2 from '../assets/advisor2.png';
-import Jumbotronabout from '../../components/layouts/Jumbotronabout.js';
+import Jumbotronabout1 from '../layouts/Jumbotronabout1.js';
 
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="aboutdiv">
+        
+        
         <Container fluid className="about">
-        <Jumbotronabout />
-          <h2>About Us</h2>
-          <Row>
+        <Jumbotronabout1 />
+        
+           <Row>
             <Col>
-              <p>
+              <p style={{fontFamily:'helvetica'}}>
                 DIRECT YOUR LIFE understands that correctional institutions have
                 become a melting pot of untapped potential. Over 90% of inmates
                 arrive at these institutions without a high school diploma,
@@ -24,7 +26,7 @@ class About extends Component {
                 reintegration back to society is more likely.
               </p>
 
-              <p>
+              <p style={{fontFamily:'helvetica'}}>
                 Our objective is to make positive changes in the community
                 through a Restorative Approach. This approach is essential to
                 produce a real and lasting transformation in the lives of
@@ -32,12 +34,15 @@ class About extends Component {
                 building good habits that foster success, while also providing
                 meaningful connections and a positive support system.
               </p>
+              <br></br>
+              <br></br>
             </Col>
           </Row>
           <Row>
             <Col>
-              <h2>Founder</h2>
-              <p>
+              <h1 style={{fontFamily:'helvetica'}}>Olusola Olumogba</h1>
+              <h3 style={{fontFamily:'helvetica'}}>Founder & Advisor</h3>
+              <p style={{fontFamily:'helvetica'}}>
                 Olusola Olumogba is a former collegiate athlete who had dreams
                 of playing professional football. After graduating from the
                 University of Western Ontario, he pursued professional football
@@ -50,7 +55,7 @@ class About extends Component {
                 leagues and has been awarded one of the Top 30 Under Thirty
                 Award by Sports Launch Magazine.
               </p>
-              <p>
+              <p style={{fontFamily:'helvetica'}}>
                 In 2007, Olusola faced his biggest life challenge of being
                 embroiled in the criminal justice system. Ultimately, a few
                 wrong choices led to his incarceration. During his time in
@@ -60,7 +65,7 @@ class About extends Component {
                 help get him back on his feet, he realized that most individuals
                 similar to his position do not.
               </p>
-              <p>
+              <p style={{fontFamily:'helvetica'}}>
                 Olusola began to focus his efforts on providing resources for
                 other similar individuals in need of positive coaching for a
                 successful reintegration back into society. He strongly believes
@@ -70,20 +75,23 @@ class About extends Component {
                 tools and guidance to others in conflict with the law who want
                 to rebuild their lives. This is how Direct Your Life was born.
               </p>
+              <br></br>
+              <br></br>
             </Col>
 
             <Col>
               <img
                 src={olu}
                 alt="../assets/olu.png"
-                style={{ width: '400px' }}
+                style={{ width: '470px', paddingTop:'110px', paddingLeft:'40px' }}
               />
             </Col>
           </Row>
           <Row>
             <Col>
-              <h2>Advisor</h2>
-              <p>
+            <h1 style={{fontFamily:'helvetica'}}>FirstName LastName</h1>
+              <h3 style={{fontFamily:'helvetica'}}>Advisor</h3>
+              <p style={{fontFamily:'helvetica'}}>
                 Hello world Lorem ipsum dolor sit amet, magna lacinia donec enim
                 id. Sagittis eget porttitor mattis libero orci ut. Nullam
                 tristique quisque urna eget, erat justo, libero libero, congue
@@ -99,20 +107,23 @@ class About extends Component {
                 sit vivamus platea suscipit justo, risus hendrerit sollicitudin
                 quam porttitor hymenaeos.
               </p>
+              <br></br>
+              <br></br>
             </Col>
 
             <Col>
               <img
                 src={advisor1}
                 alt="../assets/advisor1.png"
-                style={{ width: '400px' }}
+                style={{ width: '470px', paddingTop:'100px', paddingLeft:'40px' }} 
               />
             </Col>
           </Row>
           <Row>
             <Col>
-              <h2>Advisor</h2>
-              <p>
+            <h1 style={{fontFamily:'helvetica'}}>FirstName LastName</h1>
+              <h3 style={{fontFamily:'helvetica'}}>Advisor</h3>
+              <p style={{fontFamily:'helvetica'}}>
                 Lorem ipsum dolor sit amet, magna lacinia donec enim id.
                 Sagittis eget porttitor mattis libero orci ut. Nullam tristique
                 quisque urna eget, erat justo, libero libero, congue nisl donec
@@ -128,13 +139,22 @@ class About extends Component {
                 sit vivamus platea suscipit justo, risus hendrerit sollicitudin
                 quam porttitor hymenaeos.
               </p>
+              <p style={{fontFamily:'helvetica'}}>
+                Lorem ipsum dolor sit amet, magna lacinia donec enim id.
+                Sagittis eget porttitor mattis libero orci ut. Nullam tristique
+                quisque urna eget, erat justo, libero libero, congue nisl donec
+                nam nulla quis id, eget cras tortor urna vitae at eu. Integer
+                integer vitae pellentesque vehicula euismod, et amet ac
+                malesuada vitae. Cras ac integer, nullam urna consectetuer nibh
+                fusce ullamcorper in. In placerat suscipit, massa laborum lorem
+                </p>
             </Col>
 
             <Col>
               <img
                 src={advisor2}
                 alt="../assets/advisor2.png"
-                style={{ width: '300px' }}
+                style={{width: '400px', paddingTop:'100px', paddingLeft:'90px', paddingBottom:'90px', }} 
               />
             </Col>
           </Row>

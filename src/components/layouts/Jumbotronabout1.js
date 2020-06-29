@@ -13,9 +13,9 @@ const Jumbotron = () => (
 		<Jumbo fluid className='Jumbo bg-dark text-white'>
 			<Container>
 				<h1>
-					About 
+					About
 				</h1>
-				<h3>Online Advisors/Coaches to offer support and legal advice</h3>
+				<h3>Feel free to reach out and we will get back to you</h3>
 			</Container>
 		</Jumbo>
 	</Styles>

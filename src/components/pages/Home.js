@@ -3,11 +3,14 @@ import Jumbotron from '../../components/layouts/Jumbotron.js';
 import Accordd from "../layouts/Faq.js";
 import { Container } from 'react-bootstrap';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+import BootstrapCarousel from "../layouts/Carousel.js";
+
 
 class Home extends Component {
   render() {
     return (
       <div>
+       
         <Container fluid className="home" >
         <Jumbotron />
         <h2>Home page</h2>
@@ -143,7 +146,9 @@ class Home extends Component {
         </p>
         
         
+        
         </Container>
+        
         <h2>Frequently Asked Questions (FAQs)</h2>
         <Accordd />
         <br />
@@ -153,6 +158,7 @@ class Home extends Component {
 				<MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
 				<br />
 				<br />
+        <BootstrapCarousel />
       </div>
     );
   }
