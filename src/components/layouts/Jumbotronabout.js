@@ -5,17 +5,17 @@ import styled from "styled-components";
 const Styles = styled.div`
 	font-size: 10px;
 	text-align: center;
-	color: black;
-	`;
+	color: red;
+`;
 
 const Jumbotron = () => (
 	<Styles>
 		<Jumbo fluid className='Jumbo bg-dark text-white'>
 			<Container>
 				<h1>
-					Welcome to Direct Your Life 
+					About 
 				</h1>
-				<h3>An online community to help guide you through the Canadian Legal System</h3>
+				<h3>Online Advisors/Coaches to offer support and legal advice</h3>
 			</Container>
 		</Jumbo>
 	</Styles>

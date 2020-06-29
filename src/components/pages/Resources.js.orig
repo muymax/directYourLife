@@ -1,0 +1,111 @@
+import React, { Component } from "react";
+<<<<<<< HEAD
+import "./Resources.css";
+import ReactPlayer from "react-player";
+=======
+import "../../App.css";
+import ReactPlayer from "react-player";
+import { Container} from 'react-bootstrap';
+import Jumbotronresources from '../../components/layouts/Jumbotronresources.js';
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+
+class Resources extends Component {
+	render() {
+		return (
+<<<<<<< HEAD
+		<div>
+				<h2>Resources</h2>
+				<h3>Video Section</h3>
+				<div className="card container">
+					<div className="row">
+						<div className="col-sm card1">
+								<ReactPlayer
+									url='https://www.youtube.com/watch?v=Qd4mxDwEcJo'
+									controls={false}
+									className='react-player'
+									playing={false}
+									width='100%'
+									height='100%'
+								/>
+						</div>
+						<br />
+						<div className="col-sm card2">
+								<ReactPlayer
+									url='https://www.youtube.com/watch?v=zTitoHKsyJg'
+									controls={true}
+									className='react-player'
+									playing={false}
+									width='100%'
+									height='100%'
+								/>
+						</div>
+					</div>
+					<br /><br /><br /><br />
+					<div className="row">
+						<div className="col-sm card1">
+							<ReactPlayer
+								url='https://www.youtube.com/watch?v=Qd4mxDwEcJo'
+								controls={true}
+								className='react-player'
+								playing={false}
+								width='100%'
+								height='100%'
+							/>
+						</div>
+						<br />
+						<div className="col-sm card2">
+							<ReactPlayer
+								url='https://www.youtube.com/watch?v=zTitoHKsyJg'
+								controls={true}
+								className='react-player'
+								playing={false}
+								width='100%'
+								height='100%'
+							/>
+						</div>
+					</div>
+			</div><br /><br />
+			<div className="card2">
+				<h3>Helpful Links</h3>
+				<p>www.google.com</p>
+			</div>
+		</div>
+=======
+			<div>
+                <Container fluid className="resources">
+                    <Jumbotronresources />
+				<h2>Resources</h2>
+				<h3>Video Section</h3>
+                
+				<p>
+					<div className='App'>
+						<header className='App-header'>
+							<ReactPlayer
+								url='https://www.youtube.com/watch?v=Qd4mxDwEcJo'
+								controls={true}
+							/>
+						</header>
+						<br />
+						<br />
+						<header className='App-header'>
+							<ReactPlayer
+								url='https://www.youtube.com/watch?v=zTitoHKsyJg'
+								controls={true}
+							/>
+						</header>
+					</div>
+				</p>
+				<h3>Helpful Links</h3>
+				<p>www.google.com</p>
+                </Container>
+			</div>
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+		);
+	}
+}
+
+<<<<<<< HEAD
+export default Resources;
+=======
+export default Resources;
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c

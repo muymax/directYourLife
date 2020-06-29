@@ -1,0 +1,174 @@
+import React from "react";
+
+
+
+const Accordd = () => (
+	<div id='accordion'>
+<<<<<<< HEAD
+		<div class='card'>
+			<div class='card-header' id='headingOne'>
+				<h5 class='mb-0'>
+					<button
+						class='btn btn-link'
+=======
+		<div className='card'>
+			<div className='card-header' id='headingOne'>
+				<h5 className='mb-0'>
+					<button
+						className='btn btn-link'
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+						data-toggle='collapse'
+						data-target='#collapseOne'
+						aria-expanded='true'
+						aria-controls='collapseOne'
+					>
+<<<<<<< HEAD
+						Are you unsure of how we can help you?
+=======
+						What can we offer to help you?
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+					</button>
+				</h5>
+			</div>
+
+			<div
+				id='collapseOne'
+<<<<<<< HEAD
+				class='collapse show'
+				aria-labelledby='headingOne'
+				data-parent='#accordion'
+			>
+				<div class='card-body'>
+=======
+				className='collapse show'
+				aria-labelledby='headingOne'
+				data-parent='#accordion'
+			>
+				<div className='card-body'>
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+					terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+					skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+					Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+					single-origin coffee nulla assumenda shoreditch et. Nihil anim
+					keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+					sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+					occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+					you probably haven't heard of them accusamus labore sustainable VHS.
+				</div>
+			</div>
+		</div>
+<<<<<<< HEAD
+		<div class='card'>
+			<div class='card-header' id='headingTwo'>
+				<h5 class='mb-0'>
+					<button
+						class='btn btn-link collapsed'
+=======
+		<div className='card'>
+			<div className='card-header' id='headingTwo'>
+				<h5 className='mb-0'>
+					<button
+						className='btn btn-link collapsed'
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+						data-toggle='collapse'
+						data-target='#collapseTwo'
+						aria-expanded='false'
+						aria-controls='collapseTwo'
+					>
+<<<<<<< HEAD
+						Are you unsure of how to proceed in life?
+=======
+						How to proceed in life?
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+					</button>
+				</h5>
+			</div>
+			<div
+				id='collapseTwo'
+<<<<<<< HEAD
+				class='collapse'
+				aria-labelledby='headingTwo'
+				data-parent='#accordion'
+			>
+				<div class='card-body'>
+=======
+				className='collapse'
+				aria-labelledby='headingTwo'
+				data-parent='#accordion'
+			>
+				<div className='card-body'>
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+					terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+					skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+					Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+					single-origin coffee nulla assumenda shoreditch et. Nihil anim
+					keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+					sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+					occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+					you probably haven't heard of them accusamus labore sustainable VHS.
+				</div>
+			</div>
+		</div>
+<<<<<<< HEAD
+		<div class='card'>
+			<div class='card-header' id='headingThree'>
+				<h5 class='mb-0'>
+					<button
+						class='btn btn-link collapsed'
+=======
+		<div className='card'>
+			<div className='card-header' id='headingThree'>
+				<h5 className='mb-0'>
+					<button
+						className='btn btn-link collapsed'
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+						data-toggle='collapse'
+						data-target='#collapseThree'
+						aria-expanded='false'
+						aria-controls='collapseThree'
+					>
+<<<<<<< HEAD
+						What benefits would i enjoy by registering?
+=======
+						What are the benefits of registering?
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+					</button>
+				</h5>
+			</div>
+			<div
+				id='collapseThree'
+<<<<<<< HEAD
+				class='collapse'
+				aria-labelledby='headingThree'
+				data-parent='#accordion'
+			>
+				<div class='card-body'>
+=======
+				className='collapse'
+				aria-labelledby='headingThree'
+				data-parent='#accordion'
+			>
+				<div className='card-body'>
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
+					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+					terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+					skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+					Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+					single-origin coffee nulla assumenda shoreditch et. Nihil anim
+					keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+					sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+					occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+					you probably haven't heard of them accusamus labore sustainable VHS.
+				</div>
+			</div>
+		</div>
+	</div>
+);
+
+<<<<<<< HEAD
+export default Accordd;
+=======
+export default Accordd;
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c

@@ -1,7 +1,10 @@
-
 import React from "react";
 import { Container } from "react-bootstrap";
 
 const Layout = (props) => <Container>{props.children}</Container>;
 
+<<<<<<< HEAD
 export default Layout;
+=======
+export default Layout;
+>>>>>>> 606a00e8fad9bec05e9a0a5e56f27da12435732c
