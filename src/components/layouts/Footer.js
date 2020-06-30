@@ -17,7 +17,7 @@ function Footer() {
           <div className="row">
             {/* Column 1*/}
             <div className="col-md-3 col-sm-6">
-              <h4>DYL</h4>
+              <h4 style={{ color: '#FF8C00' }}>DYL</h4>
               <ul className="list-unstyled">
               
                 <li>Direct Your Life</li>
@@ -28,29 +28,30 @@ function Footer() {
             </div>
             {/* Column 2*/}
             <div className="col-md-2 col-sm-6">
-              <h4>Links</h4>
+            <h4 style={{ color: '#FF8C00' }}>Links</h4>
               <ul className="list-unstyled">
-                <li>About Us</li>
+                <li>About </li>
                 <li>Contact</li>
                 <li>FAQ's</li>
-                <li></li>
+                <li> News</li>
               </ul>
             </div>
             {/* Column 3*/}
             <div className="col-md-2 col-sm-6">
               <h4></h4>
               <ul className="list-unstyled">
+                <br></br>
                 <li>Member terms</li>
                 <li>Privacy</li>
                 <li>Crisis support</li>
-                <li>hello world</li>
+                <li>DYL</li>
               </ul>
             </div>
             {/* Column 4*/}
             <div className="col-md-5 col-sm-6">
-              <h4>Social Media</h4>
+            <h4 style={{ color: '#FF8C00', textAlign: "center" }}>Social Media</h4>
               <ul className="list-unstyled">
-              <div className="social-container">
+              <div className="social-container" style={{ textAlign: "center" }}>
               <a
                 href="https://www.youtube.com/watch?v=eIPu-UPCrd8"
                 className="youtube social">

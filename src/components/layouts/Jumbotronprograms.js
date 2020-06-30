@@ -15,7 +15,7 @@ const Jumbotron = () => (
 				<h1>
 					Programs
 				</h1>
-				<h3>What programs Direct Your Life can offer with registration</h3>
+				<h4>What programs we offer</h4>
 			</Container>
 		</Jumbo>
 	</Styles>

@@ -15,7 +15,7 @@ const Jumbotron = () => (
 				<h1>
 					About
 				</h1>
-				<h3>Feel free to reach out and we will get back to you</h3>
+				<h4>Meet the Advisors/Coaches</h4>
 			</Container>
 		</Jumbo>
 	</Styles>

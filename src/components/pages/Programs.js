@@ -94,7 +94,7 @@ class Programs extends Component {
           <Row>
             <Col>
               <h2>Who we are?</h2>
-              <p>
+              <p style={{fontFamily:'helvetica'}}>
                 We are a non-profit organization in the Greater Toronto Area run
                 by Community Advisors with lived experience navigating the
                 criminal justice system in Canada. All members of our team
@@ -117,7 +117,7 @@ class Programs extends Component {
           <Row>
             <Col>
               <h2>Why we serve?</h2>
-              <p>
+              <p style={{fontFamily:'helvetica'}}>
                 Our objective is to prevent incarceration and recidivism among
                 at-risk youth and recently released offenders. Our mentorship
                 programs aims to help our participants establish strong
@@ -245,6 +245,7 @@ class Programs extends Component {
           <br />
           <br />
                 </Container>
+                <br></br>
 			</div>
 		);
 	}

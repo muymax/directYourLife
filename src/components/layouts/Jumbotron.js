@@ -15,7 +15,7 @@ const Jumbotron = () => (
 				<h1>
 					Welcome to Direct Your Life 
 				</h1>
-				<h3>An online community to help guide you through the Canadian Legal System</h3>
+				<h4>A community to help guide you through the Canadian Legal System</h4>
 			</Container>
 		</Jumbo>
 	</Styles>

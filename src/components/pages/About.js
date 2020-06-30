@@ -16,6 +16,7 @@ class About extends Component {
         
            <Row>
             <Col>
+            <h1 style={{fontFamily:'helvetica'}}>Who we are!</h1>
               <p style={{fontFamily:'helvetica'}}>
                 DIRECT YOUR LIFE understands that correctional institutions have
                 become a melting pot of untapped potential. Over 90% of inmates
@@ -159,6 +160,7 @@ class About extends Component {
             </Col>
           </Row>
         </Container>
+        <br></br>
       </div>
     );
   }

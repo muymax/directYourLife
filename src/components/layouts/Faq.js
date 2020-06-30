@@ -81,7 +81,7 @@ const Accordd = () => (
 						aria-expanded='false'
 						aria-controls='collapseThree'
 					>
-						What are the benefits of registering?
+						Benefits of registration
 					</button>
 				</h5>
 			</div>
