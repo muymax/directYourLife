@@ -25,7 +25,7 @@ class Signup extends Component {
           <h5 className="grey-text text-darken-3">Sign Up</h5>
           <div className="input-field">
             <label htmlFor="email">Email</label>
-            <input type="email" placeholder="Enter email" class="form-control" id="email" onChange={this.handleChange}/>
+            <input type="email" placeholder="Enter email" className="form-control" id="email" onChange={this.handleChange}/>
           </div>
           </div>
           <div className="form-group">

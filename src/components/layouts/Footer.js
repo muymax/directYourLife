@@ -38,7 +38,7 @@ function Footer() {
             </div>
             {/* Column 3*/}
             <div className="col-md-2 col-sm-6">
-              <h4></h4>
+              <br></br>
               <ul className="list-unstyled">
                 <br></br>
                 <li>Member terms</li>

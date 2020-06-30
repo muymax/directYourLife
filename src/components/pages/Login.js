@@ -23,12 +23,12 @@ class Login extends Component {
             <h5 className="grey-text text-darken-3">Log In</h5>
             <div className="input-field"></div>
             <label htmlFor="email">Email</label>
-            <input type="email" placeholder="Enter email" class="form-control" id="email" onChange={this.handleChange} />
+            <input type="email" placeholder="Enter email" className="form-control" id="email" onChange={this.handleChange} />
           </div>
           <div className="form-group">
           <div className="input-field">
             <label htmlFor="password">Password</label>
-            <input type="password" placeholder="Password" class="form-control" id="password" onChange={this.handleChange} />
+            <input type="password" placeholder="Password" className="form-control" id="password" onChange={this.handleChange} />
           </div>
           </div>
           <div className="form-group">
