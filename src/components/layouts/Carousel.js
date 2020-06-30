@@ -15,7 +15,7 @@ export class BootstrapCarousel extends Component {
 					</div>
 				</div>
 				<div className='container-fluid'>
-					<Carousel interval={1000} keyboard={false} pauseOnHover={true}>
+					<Carousel interval={1000} keyboard={false} pauseonhover={true}>
 						<Carousel.Item style={{ height: "300px" }}>
 							<img
 								style={{ height: "300px" }}

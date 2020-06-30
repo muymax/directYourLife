@@ -18,13 +18,13 @@ import Login from './components/pages/Login';
 import Signup from './components/pages/Signup';
 import Layout from './components/layouts/Layout';
 import './components/pages/Pages.css';
-import Jumbotronabout  from './components/layouts/Banner';
+import Banner  from './components/layouts/Banner';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Jumbotronabout/>
+      <Banner/>
       <Layout>
         <Switch>
         <Route exact path='/' component={Home} />

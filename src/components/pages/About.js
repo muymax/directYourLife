@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 import olu from '../assets/olu.png';
 import advisor1 from '../assets/advisor1.png';
 import advisor2 from '../assets/advisor2.png';
-import Jumbotronabout1 from '../layouts/Jumbotronabout1.js';
+import Jumbotronabout from '../layouts/Jumbotronabout.js';
 
 class About extends Component {
   render() {
@@ -12,7 +12,7 @@ class About extends Component {
         
         
         <Container fluid className="about">
-        <Jumbotronabout1 />
+        <Jumbotronabout />
         
            <Row>
             <Col>
